@@ -10,6 +10,7 @@ node
 	{
 		BuildMaven("clean package")
 	}
+	/*
 	stage('Upload Artifact')
 	{
 		UploadArtifacts("war","target/Demo.war","demo","com.mydemo","nexus_cred","Build-Snapshots","${BUILD_NUMBER}-SNAPSHOT")
@@ -18,5 +19,6 @@ node
 	{
 		ConfirmMessage()
 		TomcatDeploy("target\\Demo.war",'"C:\\Program Files\\Apache Software Foundation\\Tomcat 9.0\\webapps"')
-	}	
+	}
+	*/
 }
