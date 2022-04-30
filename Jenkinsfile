@@ -4,7 +4,7 @@ node
 
 	stage('Source CheckOut')
     {
-		SourceCheckout("https://github.com/Ayyappa376/Demo_Devops.git","master",)
+		SourceCheckout("https://github.com/Ayyappa376/Demo_Devops.git","master","GitToken")
 	}
 	stage('Maven Build')
 	{
