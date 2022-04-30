@@ -8,7 +8,7 @@ node
 	}
 	stage('Maven Build')
 	{
-		BuildMaven("clean install")
+		BuildMaven("clean package")
 	}
 	stage('Upload Artifact')
 	{
